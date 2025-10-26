@@ -87,7 +87,7 @@
         }
         
         .neon-card {
-            background: rgba(0, 0, 0, 0.4);
+            background: rgba(0, 0, 0, 0.7);
             border: 1px solid rgba(0, 212, 255, 0.2);
             transition: all 0.4s ease;
             position: relative;
@@ -339,25 +339,25 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="min-h-screen flex items-center justify-center relative z-10">
-        <div class="container mx-auto px-6 text-center">
+    <section id="home" class="min-h-screen flex items-center justify-center relative z-10 pt-20 md:pt-0">
+        <div class="container mx-auto px-4 md:px-6 text-center">
             <div class="fade-in">
-                <h1 class="text-7xl md:text-9xl font-bold cosmic-gradient mb-8 leading-tight rajdhani-font">
+                <h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold cosmic-gradient mb-6 md:mb-8 leading-tight rajdhani-font">
                     INNER WORK
                 </h1>
-                <p class="text-3xl md:text-5xl mb-8 font-light text-cyan-200 rajdhani-font">
+                <p class="text-xl sm:text-2xl md:text-4xl lg:text-5xl mb-6 md:mb-8 font-light text-cyan-200 rajdhani-font">
                     TRANSFORM YOUR LIFE IN 3 DAYS
                 </p>
-                <p class="text-xl md:text-2xl mb-12 max-w-4xl mx-auto text-gray-300 leading-relaxed">
+                <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 md:mb-12 max-w-4xl mx-auto text-gray-300 leading-relaxed px-2">
                     🚀 Discover the power of emotional healing, self-love, and chakra balancing. 
                     Join thousands who have already transformed their lives through inner work! ✨
                 </p>
                 
-                <div class="flex flex-col sm:flex-row gap-8 justify-center items-center">
-                    <a href="#course" class="glow-button px-12 py-5 rounded-full text-xl font-bold text-white rajdhani-font">
+                <div class="flex flex-col sm:flex-row gap-4 md:gap-8 justify-center items-center px-4">
+                    <a href="#course" class="glow-button w-full sm:w-auto px-8 md:px-12 py-4 md:py-5 rounded-full text-lg md:text-xl font-bold text-white rajdhani-font">
                         🌟 START YOUR JOURNEY
                     </a>
-                    <a href="#pricing" class="neon-card px-12 py-5 rounded-full text-xl font-semibold text-cyan-200 hover:text-white transition-colors duration-300 rajdhani-font">
+                    <a href="#pricing" class="neon-card w-full sm:w-auto px-8 md:px-12 py-4 md:py-5 rounded-full text-lg md:text-xl font-semibold text-cyan-200 hover:text-white transition-colors duration-300 rajdhani-font">
                         💎 VIEW PRICING
                     </a>
                 </div>
@@ -366,86 +366,147 @@
     </section>
 
     <!-- Stats Section -->
-    <section class="section-spacing relative z-10">
-        <div class="container mx-auto px-6">
-            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                <div class="neon-card rounded-3xl p-10 text-center hover-transform fade-in">
-                    <div class="counter-display cosmic-gradient mb-6" data-target="3000">0</div>
-                    <p class="text-xl text-cyan-300 font-medium rajdhani-font">LIVES TRANSFORMED</p>
+    <section class="py-16 md:py-24 relative z-10">
+        <div class="container mx-auto px-4 md:px-6">
+            <!-- Section Header -->
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl md:text-6xl font-bold cosmic-gradient mb-6 rajdhani-font">
+                    PROVEN RESULTS
+                </h2>
+                <p class="text-lg md:text-xl text-cyan-200 max-w-3xl mx-auto">
+                    ✨ Join thousands who have already experienced life-changing transformations ✨
+                </p>
+            </div>
+            
+            <!-- Stats Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+                <!-- Lives Transformed -->
+                <div class="neon-card rounded-2xl md:rounded-3xl p-6 md:p-10 text-center hover-transform fade-in relative overflow-hidden">
+                    <div class="absolute top-0 right-0 text-6xl md:text-8xl opacity-10 text-cyan-400">👥</div>
+                    <div class="relative z-10">
+                        <div class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-4 md:mb-6 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full flex items-center justify-center">
+                            <span class="text-2xl md:text-3xl">🌟</span>
+                        </div>
+                        <div class="counter-display cosmic-gradient mb-3 md:mb-4 text-4xl md:text-5xl" data-target="3000">0</div>
+                        <p class="text-lg md:text-xl text-cyan-300 font-semibold rajdhani-font mb-2">LIVES TRANSFORMED</p>
+                        <p class="text-sm md:text-base text-gray-400">Souls awakened to their true potential</p>
+                    </div>
                 </div>
-                <div class="neon-card rounded-3xl p-10 text-center hover-transform fade-in">
-                    <div class="counter-display cosmic-gradient mb-6" data-target="4">0</div>
-                    <p class="text-xl text-cyan-300 font-medium rajdhani-font">YEARS EXPERIENCE</p>
+                
+                <!-- Years Experience -->
+                <div class="neon-card rounded-2xl md:rounded-3xl p-6 md:p-10 text-center hover-transform fade-in relative overflow-hidden">
+                    <div class="absolute top-0 right-0 text-6xl md:text-8xl opacity-10 text-purple-400">⏰</div>
+                    <div class="relative z-10">
+                        <div class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-4 md:mb-6 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center">
+                            <span class="text-2xl md:text-3xl">🔮</span>
+                        </div>
+                        <div class="counter-display cosmic-gradient mb-3 md:mb-4 text-4xl md:text-5xl" data-target="4">0</div>
+                        <p class="text-lg md:text-xl text-cyan-300 font-semibold rajdhani-font mb-2">YEARS EXPERIENCE</p>
+                        <p class="text-sm md:text-base text-gray-400">Mastering ancient healing wisdom</p>
+                    </div>
                 </div>
-                <div class="neon-card rounded-3xl p-10 text-center hover-transform fade-in">
-                    <div class="counter-display cosmic-gradient mb-6" data-target="98">0</div>
-                    <p class="text-xl text-cyan-300 font-medium rajdhani-font">SUCCESS RATE %</p>
+                
+                <!-- Success Rate -->
+                <div class="neon-card rounded-2xl md:rounded-3xl p-6 md:p-10 text-center hover-transform fade-in relative overflow-hidden md:col-span-1 col-span-1">
+                    <div class="absolute top-0 right-0 text-6xl md:text-8xl opacity-10 text-green-400">📈</div>
+                    <div class="relative z-10">
+                        <div class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-4 md:mb-6 bg-gradient-to-r from-green-500 to-cyan-500 rounded-full flex items-center justify-center">
+                            <span class="text-2xl md:text-3xl">✨</span>
+                        </div>
+                        <div class="counter-display cosmic-gradient mb-3 md:mb-4 text-4xl md:text-5xl" data-target="98">0</div>
+                        <p class="text-lg md:text-xl text-cyan-300 font-semibold rajdhani-font mb-2">SUCCESS RATE</p>
+                        <p class="text-sm md:text-base text-gray-400">Students achieving breakthrough results</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional Stats Row -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-5xl mx-auto mt-8 md:mt-12">
+                <div class="neon-card rounded-xl md:rounded-2xl p-4 md:p-6 text-center fade-in">
+                    <div class="text-2xl md:text-3xl mb-2">🌍</div>
+                    <div class="text-xl md:text-2xl font-bold cosmic-gradient rajdhani-font">50+</div>
+                    <div class="text-xs md:text-sm text-cyan-300 rajdhani-font">COUNTRIES</div>
+                </div>
+                <div class="neon-card rounded-xl md:rounded-2xl p-4 md:p-6 text-center fade-in">
+                    <div class="text-2xl md:text-3xl mb-2">⭐</div>
+                    <div class="text-xl md:text-2xl font-bold cosmic-gradient rajdhani-font">4.9</div>
+                    <div class="text-xs md:text-sm text-cyan-300 rajdhani-font">RATING</div>
+                </div>
+                <div class="neon-card rounded-xl md:rounded-2xl p-4 md:p-6 text-center fade-in">
+                    <div class="text-2xl md:text-3xl mb-2">🏆</div>
+                    <div class="text-xl md:text-2xl font-bold cosmic-gradient rajdhani-font">100+</div>
+                    <div class="text-xs md:text-sm text-cyan-300 rajdhani-font">AWARDS</div>
+                </div>
+                <div class="neon-card rounded-xl md:rounded-2xl p-4 md:p-6 text-center fade-in">
+                    <div class="text-2xl md:text-3xl mb-2">💎</div>
+                    <div class="text-xl md:text-2xl font-bold cosmic-gradient rajdhani-font">24/7</div>
+                    <div class="text-xs md:text-sm text-cyan-300 rajdhani-font">SUPPORT</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Course Section -->
-    <section id="course" class="section-spacing relative z-10">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-24 fade-in">
-                <h2 class="text-6xl md:text-8xl font-bold cosmic-gradient mb-10 rajdhani-font">
+    <section id="course" class="py-16 md:py-24 relative z-10">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="text-center mb-16 md:mb-24 fade-in">
+                <h2 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold cosmic-gradient mb-6 md:mb-10 rajdhani-font">
                     3-DAY TRANSFORMATION
                 </h2>
-                <p class="text-2xl md:text-3xl text-cyan-200 max-w-4xl mx-auto leading-relaxed">
+                <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl text-cyan-200 max-w-4xl mx-auto leading-relaxed px-2">
                     🔮 A carefully crafted journey to unlock your inner potential and create lasting change! 💫
                 </p>
             </div>
             
-            <div class="grid lg:grid-cols-3 gap-12 max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12 max-w-7xl mx-auto">
                 <!-- Day 1 -->
-                <div class="neon-card rounded-3xl p-10 hover-transform fade-in">
-                    <div class="w-24 h-24 mx-auto mb-8 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full flex items-center justify-center text-4xl">
+                <div class="neon-card rounded-2xl md:rounded-3xl p-6 md:p-10 hover-transform fade-in">
+                    <div class="w-16 h-16 md:w-24 md:h-24 mx-auto mb-6 md:mb-8 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full flex items-center justify-center text-2xl md:text-4xl">
                         🧘‍♀️
                     </div>
-                    <h3 class="text-3xl font-bold mb-6 cosmic-gradient rajdhani-font">DAY 1</h3>
-                    <h4 class="text-2xl font-semibold mb-6 text-cyan-200">UNDERSTANDING INNER WORK</h4>
-                    <p class="text-xl text-gray-300 leading-relaxed mb-8 font-medium">
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 cosmic-gradient rajdhani-font">DAY 1</h3>
+                    <h4 class="text-lg md:text-2xl font-semibold mb-4 md:mb-6 text-cyan-200">UNDERSTANDING INNER WORK</h4>
+                    <p class="text-base md:text-xl text-gray-300 leading-relaxed mb-6 md:mb-8 font-medium">
                         🧠 Dive deep into emotional blocks and learn powerful techniques to identify and release limiting patterns that hold you back.
                     </p>
-                    <ul class="space-y-4 text-gray-300 text-lg">
-                        <li class="flex items-center"><span class="mr-4 text-cyan-400 text-xl">⬢</span> Emotional Pattern Recognition</li>
-                        <li class="flex items-center"><span class="mr-4 text-cyan-400 text-xl">⬢</span> Trauma Release Techniques</li>
-                        <li class="flex items-center"><span class="mr-4 text-cyan-400 text-xl">⬢</span> Inner Child Healing</li>
+                    <ul class="space-y-3 md:space-y-4 text-gray-300 text-sm md:text-lg">
+                        <li class="flex items-center"><span class="mr-3 md:mr-4 text-cyan-400 text-lg md:text-xl">⬢</span> Emotional Pattern Recognition</li>
+                        <li class="flex items-center"><span class="mr-3 md:mr-4 text-cyan-400 text-lg md:text-xl">⬢</span> Trauma Release Techniques</li>
+                        <li class="flex items-center"><span class="mr-3 md:mr-4 text-cyan-400 text-lg md:text-xl">⬢</span> Inner Child Healing</li>
                     </ul>
                 </div>
                 
                 <!-- Day 2 -->
-                <div class="neon-card rounded-3xl p-10 hover-transform fade-in">
-                    <div class="w-24 h-24 mx-auto mb-8 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center text-4xl">
+                <div class="neon-card rounded-2xl md:rounded-3xl p-6 md:p-10 hover-transform fade-in">
+                    <div class="w-16 h-16 md:w-24 md:h-24 mx-auto mb-6 md:mb-8 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center text-2xl md:text-4xl">
                         💖
                     </div>
-                    <h3 class="text-3xl font-bold mb-6 cosmic-gradient rajdhani-font">DAY 2</h3>
-                    <h4 class="text-2xl font-semibold mb-6 text-cyan-200">SELF-LOVE MASTERY</h4>
-                    <p class="text-xl text-gray-300 leading-relaxed mb-8 font-medium">
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 cosmic-gradient rajdhani-font">DAY 2</h3>
+                    <h4 class="text-lg md:text-2xl font-semibold mb-4 md:mb-6 text-cyan-200">SELF-LOVE MASTERY</h4>
+                    <p class="text-base md:text-xl text-gray-300 leading-relaxed mb-6 md:mb-8 font-medium">
                         💖 Reconnect with your authentic self through proven self-love practices and compassion techniques.
                     </p>
-                    <ul class="space-y-4 text-gray-300 text-lg">
-                        <li class="flex items-center"><span class="mr-4 text-purple-400 text-xl">⬢</span> Self-Compassion Practices</li>
-                        <li class="flex items-center"><span class="mr-4 text-purple-400 text-xl">⬢</span> Boundary Setting</li>
-                        <li class="flex items-center"><span class="mr-4 text-purple-400 text-xl">⬢</span> Authentic Self Discovery</li>
+                    <ul class="space-y-3 md:space-y-4 text-gray-300 text-sm md:text-lg">
+                        <li class="flex items-center"><span class="mr-3 md:mr-4 text-purple-400 text-lg md:text-xl">⬢</span> Self-Compassion Practices</li>
+                        <li class="flex items-center"><span class="mr-3 md:mr-4 text-purple-400 text-lg md:text-xl">⬢</span> Boundary Setting</li>
+                        <li class="flex items-center"><span class="mr-3 md:mr-4 text-purple-400 text-lg md:text-xl">⬢</span> Authentic Self Discovery</li>
                     </ul>
                 </div>
                 
                 <!-- Day 3 -->
-                <div class="neon-card rounded-3xl p-10 hover-transform fade-in">
-                    <div class="w-24 h-24 mx-auto mb-8 bg-gradient-to-r from-pink-500 to-cyan-500 rounded-full flex items-center justify-center text-4xl">
+                <div class="neon-card rounded-2xl md:rounded-3xl p-6 md:p-10 hover-transform fade-in md:col-span-2 lg:col-span-1">
+                    <div class="w-16 h-16 md:w-24 md:h-24 mx-auto mb-6 md:mb-8 bg-gradient-to-r from-pink-500 to-cyan-500 rounded-full flex items-center justify-center text-2xl md:text-4xl">
                         🌟
                     </div>
-                    <h3 class="text-3xl font-bold mb-6 cosmic-gradient rajdhani-font">DAY 3</h3>
-                    <h4 class="text-2xl font-semibold mb-6 text-cyan-200">CHAKRA ALIGNMENT</h4>
-                    <p class="text-xl text-gray-300 leading-relaxed mb-8 font-medium">
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 cosmic-gradient rajdhani-font">DAY 3</h3>
+                    <h4 class="text-lg md:text-2xl font-semibold mb-4 md:mb-6 text-cyan-200">CHAKRA ALIGNMENT</h4>
+                    <p class="text-base md:text-xl text-gray-300 leading-relaxed mb-6 md:mb-8 font-medium">
                         🌟 Master chakra balancing to align your energy centers and unlock powerful manifestation abilities.
                     </p>
-                    <ul class="space-y-4 text-gray-300 text-lg">
-                        <li class="flex items-center"><span class="mr-4 text-pink-400 text-xl">⬢</span> 7 Chakra Balancing</li>
-                        <li class="flex items-center"><span class="mr-4 text-pink-400 text-xl">⬢</span> Energy Alignment</li>
-                        <li class="flex items-center"><span class="mr-4 text-pink-400 text-xl">⬢</span> Manifestation Techniques</li>
+                    <ul class="space-y-3 md:space-y-4 text-gray-300 text-sm md:text-lg">
+                        <li class="flex items-center"><span class="mr-3 md:mr-4 text-pink-400 text-lg md:text-xl">⬢</span> 7 Chakra Balancing</li>
+                        <li class="flex items-center"><span class="mr-3 md:mr-4 text-pink-400 text-lg md:text-xl">⬢</span> Energy Alignment</li>
+                        <li class="flex items-center"><span class="mr-3 md:mr-4 text-pink-400 text-lg md:text-xl">⬢</span> Manifestation Techniques</li>
                     </ul>
                 </div>
             </div>
@@ -453,64 +514,64 @@
     </section>
 
     <!-- Mentor Section -->
-    <section id="mentor" class="section-spacing relative z-10">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-20 fade-in">
-                <h2 class="text-6xl md:text-8xl font-bold cosmic-gradient mb-8 rajdhani-font">
+    <section id="mentor" class="py-16 md:py-24 relative z-10">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="text-center mb-12 md:mb-20 fade-in">
+                <h2 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold cosmic-gradient mb-6 md:mb-8 rajdhani-font">
                     MEET YOUR MENTOR
                 </h2>
-                <p class="text-2xl md:text-3xl text-cyan-200 max-w-4xl mx-auto">
+                <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl text-cyan-200 max-w-4xl mx-auto px-2">
                     🔮 Your guide to spiritual transformation and inner awakening ✨
                 </p>
             </div>
             
             <div class="max-w-7xl mx-auto">
                 <!-- Main Mentor Card -->
-                <div class="neon-card rounded-3xl p-12 mb-12 fade-in hover-transform">
-                    <div class="grid lg:grid-cols-3 gap-12 items-center">
+                <div class="neon-card rounded-2xl md:rounded-3xl p-6 md:p-12 mb-8 md:mb-12 fade-in hover-transform">
+                    <div class="grid lg:grid-cols-3 gap-8 md:gap-12 items-center">
                         <!-- Mentor Avatar -->
                         <div class="text-center lg:text-left">
                             <div class="relative inline-block">
-                                <div class="w-64 h-64 mx-auto lg:mx-0 bg-gradient-to-br from-cyan-400 via-purple-500 to-pink-500 rounded-full flex items-center justify-center overflow-hidden hover-transform">
-                                    <div class="w-56 h-56 bg-black rounded-full flex items-center justify-center">
-                                        <div class="text-8xl cosmic-gradient star rajdhani-font" style="animation: stellarTwinkle 3s ease-in-out infinite alternate;">★</div>
+                                <div class="w-48 h-48 md:w-64 md:h-64 mx-auto lg:mx-0 bg-gradient-to-br from-cyan-400 via-purple-500 to-pink-500 rounded-full flex items-center justify-center overflow-hidden hover-transform">
+                                    <div class="w-40 h-40 md:w-56 md:h-56 bg-black rounded-full flex items-center justify-center">
+                                        <div class="text-6xl md:text-8xl cosmic-gradient star rajdhani-font" style="animation: stellarTwinkle 3s ease-in-out infinite alternate;">★</div>
                                     </div>
                                 </div>
                                 <!-- Floating Elements Around Avatar -->
-                                <div class="absolute -top-4 -right-4 text-3xl animate-bounce">🔮</div>
-                                <div class="absolute -bottom-4 -left-4 text-3xl animate-pulse">✨</div>
-                                <div class="absolute top-1/2 -left-8 text-2xl animate-ping">⭐</div>
-                                <div class="absolute top-1/2 -right-8 text-2xl animate-spin">🌟</div>
+                                <div class="absolute -top-2 -right-2 md:-top-4 md:-right-4 text-2xl md:text-3xl animate-bounce">🔮</div>
+                                <div class="absolute -bottom-2 -left-2 md:-bottom-4 md:-left-4 text-2xl md:text-3xl animate-pulse">✨</div>
+                                <div class="absolute top-1/2 -left-4 md:-left-8 text-xl md:text-2xl animate-ping">⭐</div>
+                                <div class="absolute top-1/2 -right-4 md:-right-8 text-xl md:text-2xl animate-spin">🌟</div>
                             </div>
                         </div>
                         
                         <!-- Mentor Info -->
-                        <div class="lg:col-span-2 space-y-6">
+                        <div class="lg:col-span-2 space-y-4 md:space-y-6">
                             <div class="text-center lg:text-left">
-                                <h3 class="text-5xl font-bold cosmic-gradient mb-4 rajdhani-font">JULIUS AYAJ</h3>
-                                <p class="text-2xl text-cyan-300 mb-6 rajdhani-font">SPIRITUAL HEALER • TAROT READER • LIFE COACH</p>
-                                <p class="text-xl text-gray-300 leading-relaxed mb-8">
+                                <h3 class="text-3xl sm:text-4xl md:text-5xl font-bold cosmic-gradient mb-3 md:mb-4 rajdhani-font">JULIUS AYAJ</h3>
+                                <p class="text-lg sm:text-xl md:text-2xl text-cyan-300 mb-4 md:mb-6 rajdhani-font">SPIRITUAL HEALER • TAROT READER • LIFE COACH</p>
+                                <p class="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-6 md:mb-8">
                                     🌟 Master of ancient wisdom and modern healing techniques. Julius has dedicated her life to helping souls discover their true potential through the power of inner work and spiritual awakening.
                                 </p>
                             </div>
                             
                             <!-- Quick Stats -->
-                            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                                <div class="neon-card rounded-xl p-4 text-center hover-transform">
-                                    <div class="text-2xl font-bold cosmic-gradient rajdhani-font">4+</div>
-                                    <div class="text-sm text-cyan-300 rajdhani-font">YEARS</div>
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+                                <div class="neon-card rounded-lg md:rounded-xl p-3 md:p-4 text-center hover-transform">
+                                    <div class="text-lg md:text-2xl font-bold cosmic-gradient rajdhani-font">4+</div>
+                                    <div class="text-xs md:text-sm text-cyan-300 rajdhani-font">YEARS</div>
                                 </div>
-                                <div class="neon-card rounded-xl p-4 text-center hover-transform">
-                                    <div class="text-2xl font-bold cosmic-gradient rajdhani-font">3000+</div>
-                                    <div class="text-sm text-cyan-300 rajdhani-font">STUDENTS</div>
+                                <div class="neon-card rounded-lg md:rounded-xl p-3 md:p-4 text-center hover-transform">
+                                    <div class="text-lg md:text-2xl font-bold cosmic-gradient rajdhani-font">3000+</div>
+                                    <div class="text-xs md:text-sm text-cyan-300 rajdhani-font">STUDENTS</div>
                                 </div>
-                                <div class="neon-card rounded-xl p-4 text-center hover-transform">
-                                    <div class="text-2xl font-bold cosmic-gradient rajdhani-font">98%</div>
-                                    <div class="text-sm text-cyan-300 rajdhani-font">SUCCESS</div>
+                                <div class="neon-card rounded-lg md:rounded-xl p-3 md:p-4 text-center hover-transform">
+                                    <div class="text-lg md:text-2xl font-bold cosmic-gradient rajdhani-font">98%</div>
+                                    <div class="text-xs md:text-sm text-cyan-300 rajdhani-font">SUCCESS</div>
                                 </div>
-                                <div class="neon-card rounded-xl p-4 text-center hover-transform">
-                                    <div class="text-2xl font-bold cosmic-gradient rajdhani-font">24/7</div>
-                                    <div class="text-sm text-cyan-300 rajdhani-font">SUPPORT</div>
+                                <div class="neon-card rounded-lg md:rounded-xl p-3 md:p-4 text-center hover-transform">
+                                    <div class="text-lg md:text-2xl font-bold cosmic-gradient rajdhani-font">24/7</div>
+                                    <div class="text-xs md:text-sm text-cyan-300 rajdhani-font">SUPPORT</div>
                                 </div>
                             </div>
                         </div>
@@ -518,63 +579,63 @@
                 </div>
                 
                 <!-- Expertise Cards -->
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="neon-card rounded-2xl p-8 hover-transform fade-in">
-                        <div class="text-center mb-6">
-                            <div class="w-20 h-20 mx-auto bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full flex items-center justify-center text-4xl mb-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                    <div class="neon-card rounded-xl md:rounded-2xl p-6 md:p-8 hover-transform fade-in">
+                        <div class="text-center mb-4 md:mb-6">
+                            <div class="w-16 h-16 md:w-20 md:h-20 mx-auto bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full flex items-center justify-center text-2xl md:text-4xl mb-3 md:mb-4">
                                 🧘‍♂️
                             </div>
-                            <h4 class="text-2xl font-bold cosmic-gradient mb-3 rajdhani-font">MEDITATION MASTER</h4>
+                            <h4 class="text-lg md:text-2xl font-bold cosmic-gradient mb-2 md:mb-3 rajdhani-font">MEDITATION MASTER</h4>
                         </div>
-                        <p class="text-gray-300 text-center leading-relaxed">
+                        <p class="text-gray-300 text-center leading-relaxed text-sm md:text-base">
                             Deep meditation practices and mindfulness techniques for inner peace and clarity.
                         </p>
                     </div>
                     
-                    <div class="neon-card rounded-2xl p-8 hover-transform fade-in">
-                        <div class="text-center mb-6">
-                            <div class="w-20 h-20 mx-auto bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center text-4xl mb-4">
+                    <div class="neon-card rounded-xl md:rounded-2xl p-6 md:p-8 hover-transform fade-in">
+                        <div class="text-center mb-4 md:mb-6">
+                            <div class="w-16 h-16 md:w-20 md:h-20 mx-auto bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center text-2xl md:text-4xl mb-3 md:mb-4">
                                 🔮
                             </div>
-                            <h4 class="text-2xl font-bold cosmic-gradient mb-3 rajdhani-font">TAROT EXPERT</h4>
+                            <h4 class="text-lg md:text-2xl font-bold cosmic-gradient mb-2 md:mb-3 rajdhani-font">TAROT EXPERT</h4>
                         </div>
-                        <p class="text-gray-300 text-center leading-relaxed">
+                        <p class="text-gray-300 text-center leading-relaxed text-sm md:text-base">
                             Intuitive tarot readings that reveal your path and unlock hidden potentials within.
                         </p>
                     </div>
                     
-                    <div class="neon-card rounded-2xl p-8 hover-transform fade-in">
-                        <div class="text-center mb-6">
-                            <div class="w-20 h-20 mx-auto bg-gradient-to-r from-pink-500 to-cyan-500 rounded-full flex items-center justify-center text-4xl mb-4">
+                    <div class="neon-card rounded-xl md:rounded-2xl p-6 md:p-8 hover-transform fade-in md:col-span-2 lg:col-span-1">
+                        <div class="text-center mb-4 md:mb-6">
+                            <div class="w-16 h-16 md:w-20 md:h-20 mx-auto bg-gradient-to-r from-pink-500 to-cyan-500 rounded-full flex items-center justify-center text-2xl md:text-4xl mb-3 md:mb-4">
                                 ⚡
                             </div>
-                            <h4 class="text-2xl font-bold cosmic-gradient mb-3 rajdhani-font">ENERGY HEALER</h4>
+                            <h4 class="text-lg md:text-2xl font-bold cosmic-gradient mb-2 md:mb-3 rajdhani-font">ENERGY HEALER</h4>
                         </div>
-                        <p class="text-gray-300 text-center leading-relaxed">
+                        <p class="text-gray-300 text-center leading-relaxed text-sm md:text-base">
                             Chakra balancing and energy alignment to restore harmony in body, mind, and spirit.
                         </p>
                     </div>
                 </div>
                 
                 <!-- Session Info -->
-                <div class="neon-card rounded-3xl p-10 mt-12 fade-in">
+                <div class="neon-card rounded-2xl md:rounded-3xl p-6 md:p-10 mt-8 md:mt-12 fade-in">
                     <div class="text-center">
-                        <h4 class="text-3xl font-bold cosmic-gradient mb-6 rajdhani-font">LIVE TRANSFORMATION SESSIONS</h4>
-                        <div class="grid md:grid-cols-3 gap-8">
-                            <div class="space-y-4">
-                                <div class="text-4xl">🕰️</div>
-                                <h5 class="text-xl font-semibold text-cyan-200 rajdhani-font">SCHEDULE</h5>
-                                <p class="text-gray-300">Daily 7:00 PM - 8:00 PM IST</p>
+                        <h4 class="text-2xl md:text-3xl font-bold cosmic-gradient mb-4 md:mb-6 rajdhani-font">LIVE TRANSFORMATION SESSIONS</h4>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                            <div class="space-y-3 md:space-y-4">
+                                <div class="text-3xl md:text-4xl">🕰️</div>
+                                <h5 class="text-lg md:text-xl font-semibold text-cyan-200 rajdhani-font">SCHEDULE</h5>
+                                <p class="text-gray-300 text-sm md:text-base">Daily 7:00 PM - 8:00 PM IST</p>
                             </div>
-                            <div class="space-y-4">
-                                <div class="text-4xl">🌍</div>
-                                <h5 class="text-xl font-semibold text-cyan-200 rajdhani-font">GLOBAL ACCESS</h5>
-                                <p class="text-gray-300">Join from anywhere in the world</p>
+                            <div class="space-y-3 md:space-y-4">
+                                <div class="text-3xl md:text-4xl">🌍</div>
+                                <h5 class="text-lg md:text-xl font-semibold text-cyan-200 rajdhani-font">GLOBAL ACCESS</h5>
+                                <p class="text-gray-300 text-sm md:text-base">Join from anywhere in the world</p>
                             </div>
-                            <div class="space-y-4">
-                                <div class="text-4xl">💬</div>
-                                <h5 class="text-xl font-semibold text-cyan-200 rajdhani-font">INTERACTIVE</h5>
-                                <p class="text-gray-300">Live Q&A and personal guidance</p>
+                            <div class="space-y-3 md:space-y-4">
+                                <div class="text-3xl md:text-4xl">💬</div>
+                                <h5 class="text-lg md:text-xl font-semibold text-cyan-200 rajdhani-font">INTERACTIVE</h5>
+                                <p class="text-gray-300 text-sm md:text-base">Live Q&A and personal guidance</p>
                             </div>
                         </div>
                     </div>
@@ -584,54 +645,54 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="section-spacing relative z-10">
-        <div class="container mx-auto px-6">
-            <h2 class="text-5xl md:text-7xl font-bold text-center mb-20 cosmic-gradient fade-in rajdhani-font">
+    <section class="py-16 md:py-24 relative z-10">
+        <div class="container mx-auto px-4 md:px-6">
+            <h2 class="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-center mb-12 md:mb-20 cosmic-gradient fade-in rajdhani-font">
                 SUCCESS STORIES
             </h2>
             
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
-                <div class="testimonial-glow rounded-3xl p-10 fade-in">
-                    <div class="flex items-center mb-8">
-                        <div class="w-16 h-16 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full flex items-center justify-center text-2xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
+                <div class="testimonial-glow rounded-2xl md:rounded-3xl p-6 md:p-10 fade-in">
+                    <div class="flex items-center mb-6 md:mb-8">
+                        <div class="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full flex items-center justify-center text-lg md:text-2xl">
                             ⭐
                         </div>
-                        <div class="ml-6">
-                            <h4 class="font-semibold text-cyan-200 text-xl rajdhani-font">PRIYA SHARMA</h4>
-                            <div class="text-yellow-400 text-lg">★★★★★</div>
+                        <div class="ml-4 md:ml-6">
+                            <h4 class="font-semibold text-cyan-200 text-lg md:text-xl rajdhani-font">PRIYA SHARMA</h4>
+                            <div class="text-yellow-400 text-base md:text-lg">★★★★★</div>
                         </div>
                     </div>
-                    <p class="text-gray-300 italic text-lg leading-relaxed">
+                    <p class="text-gray-300 italic text-base md:text-lg leading-relaxed">
                         "This course completely transformed my relationship with myself. I finally understand my emotional patterns and have real tools to heal them. Life-changing!"
                     </p>
                 </div>
                 
-                <div class="testimonial-glow rounded-3xl p-10 fade-in">
-                    <div class="flex items-center mb-8">
-                        <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-2xl">
+                <div class="testimonial-glow rounded-2xl md:rounded-3xl p-6 md:p-10 fade-in">
+                    <div class="flex items-center mb-6 md:mb-8">
+                        <div class="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-lg md:text-2xl">
                             💫
                         </div>
-                        <div class="ml-6">
-                            <h4 class="font-semibold text-cyan-200 text-xl orbitron-font">RAHUL MEHTA</h4>
-                            <div class="text-yellow-400 text-lg">★★★★★</div>
+                        <div class="ml-4 md:ml-6">
+                            <h4 class="font-semibold text-cyan-200 text-lg md:text-xl orbitron-font">RAHUL MEHTA</h4>
+                            <div class="text-yellow-400 text-base md:text-lg">★★★★★</div>
                         </div>
                     </div>
-                    <p class="text-gray-300 italic text-lg leading-relaxed">
+                    <p class="text-gray-300 italic text-base md:text-lg leading-relaxed">
                         "Julius's guidance helped me balance my chakras and manifest my dream job within weeks. Her techniques are practical and incredibly powerful!"
                     </p>
                 </div>
                 
-                <div class="testimonial-glow rounded-3xl p-10 fade-in">
-                    <div class="flex items-center mb-8">
-                        <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-cyan-500 rounded-full flex items-center justify-center text-2xl">
+                <div class="testimonial-glow rounded-2xl md:rounded-3xl p-6 md:p-10 fade-in md:col-span-2 lg:col-span-1">
+                    <div class="flex items-center mb-6 md:mb-8">
+                        <div class="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-pink-500 to-cyan-500 rounded-full flex items-center justify-center text-lg md:text-2xl">
                             🌟
                         </div>
-                        <div class="ml-6">
-                            <h4 class="font-semibold text-cyan-200 text-xl orbitron-font">ANITA KAPOOR</h4>
-                            <div class="text-yellow-400 text-lg">★★★★★</div>
+                        <div class="ml-4 md:ml-6">
+                            <h4 class="font-semibold text-cyan-200 text-lg md:text-xl orbitron-font">ANITA KAPOOR</h4>
+                            <div class="text-yellow-400 text-base md:text-lg">★★★★★</div>
                         </div>
                     </div>
-                    <p class="text-gray-300 italic text-lg leading-relaxed">
+                    <p class="text-gray-300 italic text-base md:text-lg leading-relaxed">
                         "Best investment I've made in myself. The self-love practices changed how I see myself completely. I feel confident and empowered now!"
                     </p>
                 </div>
@@ -640,57 +701,59 @@
     </section>
 
     <!-- Pricing Section -->
-    <section id="pricing" class="section-spacing relative z-10">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-5xl md:text-7xl font-bold mb-10 cosmic-gradient fade-in orbitron-font">
+    <section id="pricing" class="py-16 md:py-24 relative z-10">
+        <div class="container mx-auto px-4 md:px-6 text-center">
+            <h2 class="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-6 md:mb-10 cosmic-gradient fade-in orbitron-font">
                 TRANSFORM YOUR LIFE TODAY
             </h2>
-            <p class="text-2xl md:text-3xl text-cyan-200 mb-20 max-w-4xl mx-auto fade-in">
+            <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl text-cyan-200 mb-12 md:mb-20 max-w-4xl mx-auto fade-in px-2">
                 🚀 Join thousands who have already discovered the power of inner work. Your journey starts now! ✨
             </p>
             
-            <div class="pricing-card rounded-3xl p-16 max-w-3xl mx-auto fade-in">
-                <div class="mb-16">
-                    <div class="text-8xl md:text-9xl font-bold cosmic-gradient mb-6 orbitron-font">₹199</div>
-                    <p class="text-3xl text-cyan-200 font-medium mb-6 orbitron-font">COMPLETE 3-DAY TRANSFORMATION</p>
-                    <div class="text-2xl text-gray-400 mb-10">
-                        <span class="line-through opacity-60">Regular Price: ₹1997</span>
-                        <span class="ml-6 cosmic-gradient font-bold text-2xl orbitron-font">SAVE ₹1798!</span>
+            <div class="pricing-card rounded-2xl md:rounded-3xl p-8 md:p-16 max-w-3xl mx-auto fade-in">
+                <div class="mb-12 md:mb-16">
+                    <div class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold cosmic-gradient mb-4 md:mb-6 orbitron-font">₹199</div>
+                    <p class="text-xl sm:text-2xl md:text-3xl text-cyan-200 font-medium mb-4 md:mb-6 orbitron-font">COMPLETE 3-DAY TRANSFORMATION</p>
+                    <div class="text-lg sm:text-xl md:text-2xl text-gray-400 mb-6 md:mb-10">
+                        <div class="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6">
+                            <span class="line-through opacity-60">Regular Price: ₹1997</span>
+                            <span class="cosmic-gradient font-bold text-lg sm:text-xl md:text-2xl orbitron-font">SAVE ₹1798!</span>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="space-y-6 mb-16 text-left max-w-lg mx-auto">
-                    <div class="flex items-center text-xl text-gray-300">
-                        <span class="text-green-400 mr-4 text-2xl">✓</span>
+                <div class="space-y-4 md:space-y-6 mb-12 md:mb-16 text-left max-w-lg mx-auto">
+                    <div class="flex items-center text-base sm:text-lg md:text-xl text-gray-300">
+                        <span class="text-green-400 mr-3 md:mr-4 text-xl md:text-2xl">✓</span>
                         <span>3 Live Sessions with Julius</span>
                     </div>
-                    <div class="flex items-center text-xl text-gray-300">
-                        <span class="text-green-400 mr-4 text-2xl">✓</span>
+                    <div class="flex items-center text-base sm:text-lg md:text-xl text-gray-300">
+                        <span class="text-green-400 mr-3 md:mr-4 text-xl md:text-2xl">✓</span>
                         <span>Digital Workbook & Materials</span>
                     </div>
-                    <div class="flex items-center text-xl text-gray-300">
-                        <span class="text-green-400 mr-4 text-2xl">✓</span>
+                    <div class="flex items-center text-base sm:text-lg md:text-xl text-gray-300">
+                        <span class="text-green-400 mr-3 md:mr-4 text-xl md:text-2xl">✓</span>
                         <span>Guided Meditation Audio</span>
                     </div>
-                    <div class="flex items-center text-xl text-gray-300">
-                        <span class="text-green-400 mr-4 text-2xl">✓</span>
+                    <div class="flex items-center text-base sm:text-lg md:text-xl text-gray-300">
+                        <span class="text-green-400 mr-3 md:mr-4 text-xl md:text-2xl">✓</span>
                         <span>Personal Tarot Reading</span>
                     </div>
-                    <div class="flex items-center text-xl text-gray-300">
-                        <span class="text-green-400 mr-4 text-2xl">✓</span>
+                    <div class="flex items-center text-base sm:text-lg md:text-xl text-gray-300">
+                        <span class="text-green-400 mr-3 md:mr-4 text-xl md:text-2xl">✓</span>
                         <span>Lifetime Community Access</span>
                     </div>
                 </div>
                 
                 <a href="https://wa.me/919395857987" target="_blank" rel="noopener noreferrer" 
-                   class="glow-button inline-block px-16 py-6 text-2xl font-bold text-white rounded-full orbitron-font">
+                   class="glow-button inline-block w-full sm:w-auto px-8 sm:px-12 md:px-16 py-4 md:py-6 text-lg sm:text-xl md:text-2xl font-bold text-white rounded-full orbitron-font">
                     🚀 START YOUR TRANSFORMATION
                 </a>
                 
-                <p class="text-gray-400 mt-8 text-lg">Secure WhatsApp enrollment • Instant access</p>
+                <p class="text-gray-400 mt-6 md:mt-8 text-sm sm:text-base md:text-lg">Secure WhatsApp enrollment • Instant access</p>
                 
-                <div class="mt-10 p-6 neon-card rounded-2xl">
-                    <p class="text-yellow-300 font-semibold text-xl orbitron-font">⚡ LIMITED TIME OFFER - ONLY 50 SPOTS AVAILABLE!</p>
+                <div class="mt-6 md:mt-10 p-4 md:p-6 neon-card rounded-xl md:rounded-2xl">
+                    <p class="text-yellow-300 font-semibold text-base sm:text-lg md:text-xl orbitron-font">⚡ LIMITED TIME OFFER - ONLY 50 SPOTS AVAILABLE!</p>
                 </div>
             </div>
         </div>
@@ -792,11 +855,11 @@
         window.addEventListener('scroll', () => {
             const header = document.querySelector('nav');
             if (window.scrollY > 100) {
-                header.style.background = 'rgba(0, 212, 255, 0.1)';
+                header.style.background = 'rgba(0, 0, 0, 0.8)';
             } else {
-                header.style.background = 'rgba(0, 212, 255, 0.05)';
+                header.style.background = 'rgba(0, 0, 0, 0.7)';
             }
         });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'994b0b4823969197',t:'MTc2MTQ5MzE0Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'994b1f22e4a045af',t:'MTc2MTQ5Mzk1NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
